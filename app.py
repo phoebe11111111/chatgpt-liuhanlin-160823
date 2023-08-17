@@ -11,7 +11,7 @@ from flask import Flask, request, render_template
 
 
 import openai
-openai.api_key = "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"
+openai.api_key = "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"
 app = Flask(__name__)
 
 @app.route("/", methods=["GET","POST"])
